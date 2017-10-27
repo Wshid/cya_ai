@@ -1,0 +1,92 @@
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+@import url(https://cdn.rawgit.com/openhiun/hangul/14c0f6faa2941116bb53001d6a7dcd5e82300c3f/nanumbarungothic.css);
+@import url(https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css);
+
+.main-title{
+    font-family: 'NanumSquare', sans-serif;
+}
+
+body{
+    font-family: "Nanum Gothic", 'Nanum Barun Gothic', sans-serif;
+}
+
+.header-fixed-wrapper{
+    top:2px;
+    border-radius:5px;
+    width:95%;
+    margin:0 auto;
+}
+
+.logo-container{
+    position:relative;
+    top:15px;
+}
+
+.main-title{
+    font-weight: 800;
+    font-size: 60pt;
+    color:white;
+    /*text-shadow: 2px 2px rgba(0, 0, 0, 0.3);*/
+}
+
+.font-white-title{
+    font-weight:bold;
+    font-size:20pt;
+    line-height:36px;
+    color:white;
+    text-shadow: 0 2px 2px 0 #fff;
+    padding-bottom:10px;
+}
+
+.font-white{
+    color:white;
+    background-color:#444444;
+}
+
+.font-white p{
+    color:white !important;
+}
+
+.font-subtitle{
+    font-size:60%;
+}
+/*
+.section-one{
+    background:url("../images/iocenter.jpg") no-repeat;
+    background-size:cover;
+}
+*/
+/*/ 섹션 재정의 */
+.section-two section article{
+    height:593px;
+    padding:50px 90px 30px 14%;
+}
+
+.section-three{
+    background:url("../images/coffee.jpg") no-repeat;
+    background-size:cover;
+}
+
+.section-five{
+    background:url("../images/adver.jpg") no-repeat;
+    background-size:cover;
+}
+
+.section-six{
+    background:url("../images/iocenter.jpg") no-repeat;
+    background-size:cover;
+}
+
+
+.contact-form input[type="submit"]{
+    background-color:black;
+}
+
+.owl-item > .item > article{
+    padding-top:300px; /* aritlce vertical align */
+}
+
+.alert-success{ /* overwrite bootstrap */
+    color: rgba(0,0,0,0.5);
+    background-color: rgba(255, 255, 255, 0.5);
+}
