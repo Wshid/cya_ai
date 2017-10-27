@@ -78,10 +78,6 @@ body{
 }
 
 
-.contact-form input[type="submit"]{
-    background-color:black;
-}
-
 .owl-item > .item > article{
     padding-top:300px; /* aritlce vertical align */
 }
@@ -89,4 +85,16 @@ body{
 .alert-success{ /* overwrite bootstrap */
     color: rgba(0,0,0,0.5);
     background-color: rgba(255, 255, 255, 0.5);
+}
+
+.member_profile .img-responsive{
+    width:250px;
+    height:250px;
+    margin:10px 0;
+}
+
+
+hgroup.row{
+    background: rgba(255,255,255,0.3);
+    border-radius: 5px;
 }

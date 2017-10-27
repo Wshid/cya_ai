@@ -266,9 +266,30 @@ header[role="header"].header-top section h2{ font-size:48px; line-height:50px; f
 
 header[role="header"].header-top section p{ font-size:19px; line-height:20px; font-weight:500; padding-top:15px}
 
-header[role="header"].header-top section a.button-header{ display: inline-block; text-align:center; margin:0 auto; line-height:63px; font-size:16px; font-weight:400; padding:0 53px; color:#FFF; background-color:#3e30c1; border-radius:4px; text-transform:uppercase}
+/* Revised By Wshid, 27/10/2017 */
+/* header[role="header"].header-top section a.button-header{ display: inline-block; text-align:center; margin:0 auto; line-height:63px; font-size:16px; font-weight:400; padding:0 53px; color:#FFF; background-color:#3e30c1; border-radius:4px; text-transform:uppercase}
+ * header[role="header"].header-top section a.button-header:hover{background-color:#5ea246; text-decoration:none}
+ */
 
-header[role="header"].header-top section a.button-header:hover{background-color:#5ea246; text-decoration:none}
+header[role="header"].header-top section a.button-header{
+	display: inline-block;
+	text-align:center;
+	margin:0 auto;
+	line-height:63px;
+	font-size:16px;
+	font-weight:400;
+	padding:0 53px;
+	color:#FFF;
+	background-color:rgba(0,0,0,0.5);
+	border-radius:4px;
+	text-transform:uppercase
+}
+
+header[role="header"].header-top section a.button-header:hover{
+	background-color:rgba(0,0,0,1);
+	color:rgba(255,255,255,1);
+	text-decoration:none;
+}
 
 header[role="header"].header-top section a.video-button,.video-pan header a.video-button{ margin:67px auto; margin-bottom:60px; display:block; cursor:pointer; outline:none; background-color:transparent; border:3px solid #FFF; border-radius:100%; width:94px; height:94px; line-height:94px; font-size:60px; text-align:center; color:#FFF;}
 
@@ -439,7 +460,7 @@ header[role="title-page"] h2,header[role="title-page"] h2{ color:#000; font-size
 .pricing>#pricing_facebook:hover{ background-color:rgba(56,88,153, 0.5); -webkit-transform:scale(1.1);}
 
 
-transform:scale(1.1);}
+/*transform:scale(1.1);}*/
 
 /*== Section Three ==*/
 
@@ -449,13 +470,28 @@ transform:scale(1.1);}
 
 /* Team */
 
-.team-pan figure{ padding:5px; border:5px solid #3e30c1; overflow:hidden; background-color:#FFF;}
+/* Revised By Wshid, 27/10/2017 */
+/* .team-pan figure{ padding:5px; border:5px solid #3e30c1; overflow:hidden; background-color:#FFF;}
+ * .team-pan header{ text-align:center; padding-top:38px}
+ */
+.team-pan figure{
+	padding:5px;
+	border:5px solid black;
+	overflow:hidden;
+	background-color:black;
+}
 
 .team-pan section:hover figure img{webkit-transform:scale(1.1);
 
 transform:scale(1.1); opacity:0.8}
 
-.team-pan header{ text-align:center; padding-top:38px}
+
+.team-pan header{
+	text-align:center;
+	padding-top:20px;
+	margin-bottom:30px;
+}
+
 
 .team-pan header h5,.team-pan header h6{ font-size:15px; line-height:16px; padding:0; margin:0; color:#5e5e64; font-weight:400}
 
@@ -541,9 +577,20 @@ border-bottom-right-radius: 3px;}
 
 .contact-form textarea{ border-top:none; padding-top:28px; height:163px}
 
-.contact-form input[type="submit"]{ height:63px; font-size:16px; text-transform:uppercase; color:#FFF; text-align:center; display:block; background-color:#3e30c1; padding:0 53px; border-radius:3px; margin:40px auto; border-bottom:1px solid #89c474}
-
-.contact-form input[type="submit"]:hover{ background-color:#84cf6a}
+/* Revised By Wshid, 27/10/2017 */
+/* .contact-form input[type="submit"]{ height:63px; font-size:16px; text-transform:uppercase; color:#FFF; text-align:center; display:block; background-color:#3e30c1; padding:0 53px; border-radius:3px; margin:40px auto; border-bottom:1px solid #89c474}
+ * .contact-form input[type="submit"]:hover{ background-color:#84cf6a}
+ */
+.contact-form input[type="submit"]{ height:63px; font-size:16px; text-transform:uppercase; text-align:center; display:block; padding:0 53px; border-radius:3px; margin:40px auto;
+	background:rgba(0,0,0,0.5);
+	color:rgba(255,255,255,0.5);;
+	inline:none;
+	border:none;
+}
+.contact-form input[type="submit"]:hover{
+	background-color:black;
+	color:white;
+}
 
 /* Map */
 
